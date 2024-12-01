@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi', sans-serif;
+}
+
+body{
+    padding-inline: 300px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+span{
+    font-size: 22px;
+}
+
+@media screen and (min-width: 850px) and (max-width: 1300px) {
+    body{
+        padding-inline: 150px;
+    }
+}
+
+@media screen and (max-width: 849px){
+    body{
+        padding-inline: 50px;
+    }
+}
+
+@media screen and (max-width: 570px){
+    body{
+        padding-inline: 10px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+    span{
+        font-size: 15px;
+    }
+}
+

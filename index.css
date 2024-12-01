@@ -1,0 +1,1298 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satoshi', sans-serif;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* Section 1 page avec le heading text et la grande image */
+.section1 {
+    background: radial-gradient(50% 50% at 50% 50%, #8559C5 0%, #2E176E 100%);
+    height: fit-content;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 100px;
+    margin-bottom: 180px;
+}
+
+.logo {
+    width: 63.26px;
+    height: 48px;
+    cursor: pointer;
+}
+
+
+.button button {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    padding-inline: 10px;
+    padding-block: 10px;
+    border-radius: 8px;
+    border: 0.6px solid rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    background: rgba(99, 61, 165, 1);
+    box-shadow: 0px 2px 4px -2px rgba(16, 24, 40, 0.06), 0px 4px 8px -2px rgba(16, 24, 40, 0.1);
+    color: rgba(245, 229, 253, 1);
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.button button:hover {
+    cursor: pointer;
+    background: rgb(88, 54, 146);
+}
+
+.headingText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.headingText h1 {
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: -2%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.headingText h2 {
+    font-family: "Satoshi";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.listbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-block: 0px;
+    padding-block: 0px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+/*Section 2 Transférez vers vos réseaux préférés*/
+.section2 {
+    background: rgba(46, 23, 110, 1);
+    height: fit-content;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.section2 h1 {
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-inline: 20px;
+}
+
+.allsquare {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.squarerow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-gradient {
+    border-radius: 8px;
+    background: linear-gradient(219.18deg, rgba(255, 255, 255, 0.3) -22.34%, rgba(153, 153, 153, 0) 147.23%);
+    margin: 25px;
+    width: 136px;
+    height: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 136px;
+    height: 136px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-inline: 25px;
+}
+
+
+
+
+
+/*Section 3 Caracteristiques*/
+.section3 {
+    background: rgba(46, 23, 110, 1);
+    height: fit-content;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Caractéristiques {
+    margin-inline: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.Caractéristiques h1 {
+    font-family: "Merriweather";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+
+}
+
+.Caractéristiques h2 {
+    font-family: "Satoshi";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+
+}
+
+
+.rounded {
+    width: fit-content;
+    height: fit-content;
+    padding-inline: 10px;
+    padding-block: 4px;
+    border-radius: 50px;
+    background: rgba(245, 229, 253, 0.1);
+    color: white;
+    font-family: "Satoshi";
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.Fonctionnalité {
+    margin-inline: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+
+.Fonctionnalité h1 {
+    font-family: 'Satoshi';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+.Fonctionnalité h2 {
+    font-family: 'Satoshi';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+}
+
+
+.rectangle {
+    width: 50%;
+    height: fit-content;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 20px;
+}
+
+.cercle {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1.33px solid rgba(255, 255, 255, 0.3);
+    background: linear-gradient(219.16deg, rgba(249, 250, 251, 0.08) 14.68%, rgba(249, 250, 251, 0.2) 49.42%, rgba(249, 250, 251, 0.08) 84.15%);
+
+}
+
+
+
+/*Section 4 Plus de fonctionnalités*/
+.section4 {
+    background: rgba(46, 23, 110, 1);
+    height: fit-content;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.heading4 h1 {
+    font-family: "Merriweather";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+
+}
+
+.heading4 h2 {
+    font-family: "Satoshi";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.gridfonction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Ajout de justify-content: space-between; */
+    align-items: center;
+    height: 562px;
+    width: auto;
+    padding-inline: 100px;
+}
+
+.whatsendchap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-top: 30px;
+    border-radius: 12px;
+    margin-right: 30px;
+    background: linear-gradient(180deg, rgba(171, 122, 230, 0) 10%, #442685 100%);
+}
+
+.whatsendchap h1 {
+    font-family: "Merriweather";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+}
+
+.iphone15 {
+    height: 562px;
+    padding-inline: 30px;
+}
+
+.grid1 {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Ajout de justify-content: space-between; */
+    align-items: center;
+}
+
+.grid1 img {
+    width: 80px;
+}
+
+.grid1 h1 {
+    font-family: "Satoshi";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.grid1 h2 {
+    font-family: "Satoshi";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.features {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 30px;
+    border-radius: 12px;
+    background: linear-gradient(235.15deg, rgba(99, 61, 165, 0.4) 4.82%, #633DA5 50.14%, rgba(99, 61, 165, 0.4) 96.38%);
+
+}
+
+.features h1 {
+    font-family: "Satoshi";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.features h2 {
+    font-family: "Satoshi";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.listfeature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+}
+
+.space {
+    margin: 1%;
+}
+
+
+/*Section 5 telecharger notre application*/
+.section5 {
+    background: rgba(46, 23, 110, 1);
+    height: fit-content;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 100px;
+}
+
+.cardsection5 {
+    width: 100%;
+    height: fit-content;
+    background: rgba(68, 38, 133, 0.5);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.download {
+    padding-inline: 32px;
+    padding-block: 72px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.download h1 {
+    font-family: "Merriweather";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+
+}
+
+.download h2 {
+    font-family: "Satoshi";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.ul {
+    list-style-type: none;
+    -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0.2));
+    mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+}
+
+
+/*Section 6 FAQ*/
+.section6 {
+    background: rgba(46, 23, 110, 1);
+    height: fit-content;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 100px;
+}
+
+.faq {
+    width: 70%;
+    margin-inline: 100px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    font-family: "Satoshi";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+}
+
+.answer p {
+    font-family: "Satoshi";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.faq.active .answer {
+    max-height: 300px;
+}
+
+
+
+/*Section 7 prendre contact*/
+.section7 {
+    background: rgba(46, 23, 110, 1);
+    height: fit-content;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 100px;
+}
+
+.cardsection7 {
+    width: 100%;
+    height: fit-content;
+    background: rgba(68, 38, 133, 0.5);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    padding-block: 30px;
+    padding-inline: 20%;
+    position: relative;
+}
+
+.cardsection7 h1 {
+    font-family: "Satoshi";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.cardsection7 h2 {
+    font-family: "Satoshi";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.circle-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+/*Footer*/
+.section8 {
+    background: rgba(46, 23, 110, 1);
+    height: fit-content;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 100px;
+}
+
+.rowContact {
+    height: fit-content;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.contactList {
+    height: fit-content;
+    width: fit-content;
+    padding-inline: 10px;
+    padding-block: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.contactList h1 {
+    font-family: "Satoshi";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.rowCredit {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.rowCredit h1 {
+    font-family: "Satoshi";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.socialMedia {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 1377px) {
+    .iphone15 {
+        width: 300px;
+        padding-inline: 30px;
+    }
+}
+
+@media (max-width: 1189px) {
+    .gridfonction {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* Ajout de justify-content: space-between; */
+        align-items: center;
+        height: fit-content;
+        width: auto;
+        padding-inline: 100px;
+    }
+
+    .iphone15 {
+        width: 100%;
+        padding-inline: 30px;
+    }
+
+    .whatsendchap {
+        width: 100%;
+        height: fit-content;
+        margin-block: 30px;
+        margin-inline: 10px;
+    }
+}
+
+@media (max-width: 1002px) {
+    .iphone15 {
+        width: 100%;
+        padding-inline: 30px;
+    }
+
+    .cardsection5 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardsection5 .point {
+        width: 15%;
+    }
+
+    .download {
+        padding-inline: 10px;
+        padding-block: 10px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .Fonctionnalité {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rectangle {
+        width: 100%;
+        height: fit-content;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .navbar {
+        padding-inline: 20px;
+        margin-bottom: 100px;
+
+    }
+
+    .section6 {
+        padding-inline: 10px;
+    }
+
+    .faq {
+        width: 80%;
+        margin-inline: 10px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        cursor: pointer;
+    }
+
+    .gridfonction {
+        padding-inline: 10px;
+    }
+}
+
+
+@media (max-width: 770px) {
+    .headingText h1 {
+        font-size: 44px;
+        margin-inline: 20px;
+    }
+
+    .headingText h2 {
+        font-size: 20px;
+        margin-inline: 20px;
+    }
+}
+
+
+@media (max-width: 530px) {
+    .headingText h1 {
+        font-size: 34px;
+        margin-inline: 20px;
+    }
+
+    .headingText h2 {
+        font-size: 18px;
+        margin-inline: 20px;
+    }
+}
+
+@media (max-width: 370px) {
+    .headingText h1 {
+        font-size: 24px;
+        margin-inline: 20px;
+    }
+
+    .allsquare {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headingText h2 {
+        font-size: 14px;
+        margin-inline: 20px;
+    }
+}
+
+@media (max-width: 493px) {
+    .rowContact {
+        flex-direction: column;
+    }
+
+    .rowCredit {
+        flex-direction: column;
+    }
+
+    .rowCredit h1 {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 330px) {
+    .headingText h1 {
+        font-size: 25px;
+        margin-inline: 10px;
+        padding-bottom: 10px;
+        margin-top: -50px;
+    }
+
+    .headingText h2 {
+        font-size: 15px;
+        padding-bottom: 30px;
+        margin-inline: 10px;
+    }
+
+    .listbutton img {
+        width: 100px;
+    }
+
+    .frame {
+        margin-top: 30px;
+    }
+
+    .section2 h1 {
+        font-size: 25px;
+        margin-inline: 10px;
+        padding-bottom: 10px;
+        line-height: normal;
+    }
+
+    .squarerow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .square {
+        margin-block: 15px;
+    }
+
+    .Caractéristiques {
+        margin-inline: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .Caractéristiques h1 {
+        font-family: "Merriweather";
+        font-size: 25px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-block: 15px;
+
+    }
+
+    .Caractéristiques h2 {
+        font-family: "Satoshi";
+        font-size: 15px;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .Fonctionnalité h1 {
+        font-size: 20px;
+        text-align: center;
+        line-height: normal;
+
+
+    }
+
+    .Fonctionnalité h2 {
+        font-size: 15px;
+        text-align: center;
+        line-height: normal;
+    }
+
+
+    .rectangle {
+        align-items: center;
+        padding: 20px;
+    }
+
+
+    .Fonctionnalité {
+        margin-inline: 10px;
+        margin-block: 15px;
+    }
+
+    .heading4{
+        padding-inline: 5px;
+    }
+
+    .heading4 h1 {
+        font-family: "Merriweather";
+        font-size: 25px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-block: 15px;
+    }
+
+    .heading4 h2 {
+        font-size: 15px;
+        padding-bottom: 30px;
+        margin-inline: 10px;
+        line-height: normal;
+    }
+
+    .iphone15 {
+        height: 262px;
+        padding-inline: 30px;
+    }
+
+    .whatsendchap h1 {
+        font-family: "Merriweather";
+        font-size: 19px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-block: 10px;
+        padding-inline: 10px;
+    }
+
+    .cardsection7 {
+        padding-inline: 20px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .features {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features h1 {
+        text-align: center;
+    }
+
+    .features h2 {
+        text-align: center;
+    }
+
+    .section5 {
+        padding-inline: 10px;
+    }
+
+    .download h1 {
+        font-family: "Merriweather";
+        font-size: 25px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+
+    }
+
+    .download h2 {
+        font-family: "Satoshi";
+        font-size: 15px;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .section7 {
+        padding-inline: 10px;
+    }
+
+    .section8 {
+        padding-inline: 10px;
+    }
+
+
+}
+
+@media (max-width: 369px) {
+    .allsquare {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .squarerow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .square {
+        width: 96px;
+        height: 96px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        margin-inline: 25px;
+    }
+
+    .square img {
+        width: 50px;
+    }
+
+    .cardsection7 {
+        padding-inline: 20px;
+    }
+}
+
+@media (max-width: 710px) and (min-width: 331px) {
+
+    .headingText h1 {
+        font-size: 40px;
+        margin-inline: 10px;
+        padding-bottom: 10px;
+        margin-top: -50px;
+    }
+
+    .headingText h2 {
+        font-size: 20px;
+        padding-bottom: 30px;
+        margin-inline: 10px;
+    }
+
+    .listbutton img {
+        width: 150px;
+    }
+
+    .frame {
+        margin-top: 50px;
+    }
+
+    .cardsection7 {
+        padding-inline: 20px;
+    }
+
+    .section2 h1 {
+        font-size: 30px;
+        margin-inline: 10px;
+        padding-bottom: 10px;
+        line-height: normal;
+    }
+
+    .squarerow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .square {
+        margin-block: 15px;
+    }
+
+    .Caractéristiques {
+        margin-inline: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .Caractéristiques h1 {
+        font-family: "Merriweather";
+        font-size: 30px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-block: 15px;
+
+    }
+
+    .Caractéristiques h2 {
+        font-family: "Satoshi";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .Fonctionnalité h1 {
+        font-size: 20px;
+        text-align: center;
+        line-height: normal;
+
+
+    }
+
+    .Fonctionnalité h2 {
+        font-size: 15px;
+        text-align: center;
+        line-height: normal;
+    }
+
+
+    .rectangle {
+        align-items: center;
+        padding: 20px;
+    }
+
+    .Fonctionnalité {
+        margin-inline: 10px;
+        margin-block: 15px;
+    }
+
+    .heading4{
+        padding-inline: 8px;
+    }
+
+    .heading4 h1 {
+        font-family: "Merriweather";
+        font-size: 28px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-block: 15px;
+    }
+
+    .heading4 h2 {
+        font-size: 20px;
+        padding-bottom: 30px;
+        margin-inline: 10px;
+        line-height: normal;
+    }
+
+    .iphone15 {
+        width: 100%;
+        height: 100%;
+        margin-inline: 30px;
+    }
+
+    .whatsendchap h1 {
+        font-family: "Merriweather";
+        font-size: 25px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-block: 10px;
+        padding-inline: 10px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .features {
+        justify-content: center;
+        align-items: center;
+        padding: auto;
+    }
+
+    .features h1 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .features h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .features img {
+        width: 100px;
+    }
+
+    .listfeature {
+        margin-bottom: 10px;
+    }
+
+    .section5 {
+        padding-inline: 10px;
+    }
+
+    .download h1 {
+        font-family: "Merriweather";
+        font-size: 25px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+
+    }
+
+    .download h2 {
+        font-family: "Satoshi";
+        font-size: 15px;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .section7 {
+        padding-inline: 10px;
+    }
+
+    .section8 {
+        padding-inline: 10px;
+    }
+
+
+}
